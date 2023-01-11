@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+    <title>Movie-WebApp</title>
+  </head>
+  <body>
+    <header>
+        <div class="header-container">
+          <h1>
+            <a href="index.html">Curpra<span>Movie</span></a>
+          </h1>
+          <div class="nav-rw">
+            <nav>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#movie-link">Movies</a></li>
+                <li><a href="">Series</a></li>
+              </ul>
+            </nav>
+            <div class="search-login">
+              <input type="text" placeholder="search" name="search" />
+              <i class="fas fa-search"></i>
+            </div>
+    
+            <a href="" id="a">Login <i class="fas fa-user"></i></a>
+          </div>
+          
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </div>
+       
+      </header>
+      <!-- banner section -->
+      <div class="bg-img">
+        <div class="banner-container">
+          <div class="banner-text">
+            <h1 id="movie-text">Warcraft</h1>
+            <p id="movie-pretext">Exclusive Trailer HD</p>
+            <p id="movie-year">
+              2016 <span> <i class="fas fa-star"></i> 7.6</span>
+            </p>
+          </div>
+          <div class="play-logo"><i class="far fa-play-circle"></i></div>
+        </div>
+      </div>
+  
+      <!-- movie card sections -->
+      <div class="movie-card-row">
+        <div class="movie-nav-link">
+          <nav>
+            <ul>
+              <li><a href="" style="font-size: 30px">Trending</a></li>
+            </ul>
+          </nav>
+          <nav>
+            <ul>
+              <li>
+                <select name="" id="">
+                  <option value="">
+                    <a href="" style="font-size: 30px">Top Rated</a>
+                  </option>
+                  <option value="">
+                    <a href="" style="font-size: 30px">Popular</a>
+                  </option>
+                  <option value="">
+                    <a href="index.html" style="font-size: 30px">Upcoming</a>
+                  </option>
+                </select>
+              </li>
+            </ul>
+          </nav>
+      </div>
+        <div class="movie-img-container" id="movie-link">
+          <!-- JAVASCRIPT CONTENT FROM TMDB API</div> -->
+         
+      </div>
+  </div>
+  <footer>
+        <div class="logo-social-links">
+          <h1>
+            <a href="index.html">Curpra<span>Movie</span></a>
+          </h1>
+          <nav>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </nav>
+          <p>&copy;copyright CurpraMovie, Inc. All right reserved</p>
+        </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
